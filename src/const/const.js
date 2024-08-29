@@ -1,19 +1,36 @@
 export const studies = [
-    {
-      title: "Técnico en desarrollo de software",
-      corporation: "SENA - Montería (Córdoba) ",
-      date: "02/2019 – 12/2019",
-    },
-    {
-      title: "Desarrollador Front-end React Js",
-      corporation: "Alura Latam - Remoto",
-      date: "04/2023 – 09/2023",
-    },
-    {
-      title: "Curso profesional de React Js",
-      corporation: "Código facilito - Remoto",
-      date: "04/2023 – 04/2023",
-    },
+  {
+    title: "Instituto Polictenico Angeles Custodios",
+    corporation: "Tecnico Informatica",
+    date: "2016 – 2019",
+  },
+  {
+    title: "Diseño Web Profesional",
+    corporation: "Udemy - Remoto",
+    date: "04/2023 – 09/2023",
+  },
+  
+  {
+    title: "Técnico Superior en desarrollo de software",
+    corporation: "Instituto Tecnologico de las Americas (ITLA)",
+    date: "2020 – 2022",
+  },
+  {
+    title: "Selenium Webdriver con python -Intro a pruebas automatizadas",
+    corporation: "Udemy - Remoto",
+    date: "2022",
+  },
+  {
+    title: "Scrum Foundation Professional Certificate - SFPC™",
+    corporation: "CertiProf",
+    date: "2022",
+  },
+  {
+    title: "Accredited Software Testing Fundamentals Certification (AICS® ASTFC)",
+    corporation: "AICS® - Asociación Internacional de Calidad de Software",
+    date: "2022",
+  },
+    
   ];
   
   export const IconKeys = {
@@ -30,15 +47,19 @@ export const studies = [
     radix: "radix",
     reactQuery: "reactQuery",
     typeScript: "typeScript",
-    zustand: "zustand",
     git: "git",
     github: "github",
-    stripe: "stripe",
-    shadcn: "shadcn",
     nodejs: "nodejs",
     mongodb: "mongodb",
-    vite: "vite",
-    // here add more icon keys
+    python: "python",
+    selenium: "selenium",
+    postman: "postman",
+    mysql: "mysql",
+    docker:"docker",
+    devops:"devops"
+
+    
+  
   };
   
   export const skills = [
@@ -79,52 +100,36 @@ export const studies = [
       title: "Github",
       icon: IconKeys.github,
     },
-    {
-      title: "Material UI",
-      icon: IconKeys.materialUi,
-    },
   
-    {
-      title: "Redux Js",
-      icon: IconKeys.redux,
-    },
-    {
-      title: "Styled Components",
-      icon: IconKeys.styled,
-    },
     {
       title: "Node Js",
       icon: IconKeys.nodejs,
     },
-    {
-      title: "TypeScript",
-      icon: IconKeys.typeScript,
-    },
-    {
-      title: "Radix UI",
-      icon: IconKeys.radix,
-    },
-  
-    {
-      title: "React Query",
-      icon: IconKeys.reactQuery,
-    },
-    {
-      title: "Vite",
-      icon: IconKeys.vite,
-    },
-    {
-      title: "Zustand",
-      icon: IconKeys.zustand,
-    },
-  
-    {
-      title: "Shadcn UI",
-      icon: IconKeys.shadcn,
-    },
+    
     {
       title: "Mongo Db",
       icon: IconKeys.mongodb,
+    },
+    {
+      title: "Python",
+      icon: IconKeys.python,
+    },
+    {
+      title: "Selenium",
+      icon: IconKeys.selenium,
+    },
+    {
+      title: "devops",
+      icon: IconKeys.devops,
+    },
+    
+    {
+      title: "postman",
+      icon: IconKeys.postman,
+    },
+    {
+      title: "Mysql",
+      icon: IconKeys.mysql,
     },
   ];
   
