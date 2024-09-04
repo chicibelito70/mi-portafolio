@@ -1,9 +1,5 @@
-<<<<<<< Updated upstream
-import { g as getConfiguredImageService, i as imageConfig } from '../chunks/_astro_assets_By3ADVnU.mjs';
-=======
-import { g as getConfiguredImageService, i as imageConfig } from '../chunks/_astro_assets_Clx8S_Kq.mjs';
->>>>>>> Stashed changes
-import { i as isRemotePath, f as isRemoteAllowed } from '../chunks/astro/assets-service_CshDUYLC.mjs';
+import { g as getConfiguredImageService, i as imageConfig } from '../chunks/_astro_assets_ltlZ5J6F.mjs';
+import { i as isRemotePath, f as isRemoteAllowed } from '../chunks/astro/assets-service_C3ocL3UT.mjs';
 import * as mime from 'mrmime';
 export { renderers } from '../renderers.mjs';
 
