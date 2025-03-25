@@ -131,6 +131,11 @@ export const studies = [
       title: "Mysql",
       icon: IconKeys.mysql,
     },
+    {
+      title: "Docker",
+      icon: IconKeys.docker,
+    }
+
   ];
   
   export const projects = [

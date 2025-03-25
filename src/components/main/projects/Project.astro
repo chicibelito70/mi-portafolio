@@ -1,0 +1,55 @@
+---
+const projects = [
+    {
+        title: "La Velada",
+        link: "https://friendly-bublanina-61d01f.netlify.app",
+        image: "/path/to/project1-preview.jpg"
+    },
+    {
+        title: "Provincias de mi pais",
+        link: "https://lively-quokka-9a2927.netlify.app",
+        image: "/path/to/project2-preview.jpg"
+    },
+    {
+        title: "Student Management System",
+        link: "https://melodic-sopapillas-1440bc.netlify.app",
+        image: "/path/to/project3-preview.jpg"
+    }
+];
+
+console.log(projects);
+---
+
+<style>
+    .projects-grid {
+        display: flex;
+        gap: 20px;
+    }
+    .project-card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .project-card img {
+        width: 100%;
+        height: auto;
+    }
+    .project-card a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: #aa0101;
+    }
+</style>
+
+<div class="projects-grid">
+    {projects.slice(0, 3).map(project => (
+        <div class="project-card">
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <img src={project.image} alt={`Preview of ${project.title}`} />
+                <span>{project.title}</span>
+            </a>
+        </div>
+    ))}
+</div>
