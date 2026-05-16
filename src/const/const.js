@@ -140,6 +140,23 @@ export const studies = [
   
   export const projects = [
     {
+      img: "../../../img/savoria.webp",
+      title: "Savoria Restaurante",
+      link: "https://savoria-restaurante.netlify.app/",
+      description: `Aplicación web moderna y bilingüe para un restaurante, construida con React y Vite. Utiliza Context API para estado global e internacionalización, además de Vanilla CSS para el diseño.`,
+      technologies: [
+        {
+          icon: IconKeys.react,
+        },
+        {
+          icon: IconKeys.css,
+        },
+        {
+          icon: IconKeys.javaScript,
+        },
+      ],
+    },
+    {
       img: "../../../img/tasks-manager.webp",
       title: "Tasks Manager",
       link: "https://task-manager-ecru-chi.vercel.app/dashboard",
